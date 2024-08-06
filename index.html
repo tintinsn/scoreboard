@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="timer">00.00</h2>
+      <div class="sub-container">
+        <!-- HOME -->
+        <div class="home">
+          <h3>HOME</h3>
+          <p id="home-score">0</p>
+          <div class="score-btn">
+            <button onclick="addOnePointHome()">+1</button>
+            <button onclick="addTwoPointHome()">+2</button>
+            <button onclick="addThreePointHome()">+3</button>
+          </div>
+          <div class="score-btn">
+            <button onclick="subtractOnePointHome()">-1</button>
+            <button onclick="subtractTwoPointHome()">-2</button>
+            <button onclick="subtractThreePointHome()">-3</button>
+          </div>
+          <div class="fouls">
+            <h4>FOULS</h4>
+            <p>0</p>
+            <p>score</p>
+          </div>
+        </div>
+
+        <!-- PERIOD -->
+        <div class="period">
+          <h4>Period</h4>
+          <p>8</p>
+        </div>
+
+        <!-- GUEST -->
+        <div class="guest">
+          <h3>GUEST</h3>
+          <p id="guest-score">0</p>
+          <div class="score-btn">
+            <button onclick="addOnePointGuest()">+1</button>
+            <button onclick="addTwoPointGuest()">+2</button>
+            <button onclick="addThreePointGuest()">+3</button>
+          </div>
+          <div class="score-btn">
+            <button onclick="subtractOnePointGuest()">-1</button>
+            <button onclick="subtractTwoPointGuest()">-2</button>
+            <button onclick="subtractThreePointGuest()">-3</button>
+          </div>
+          <div class="fouls">
+            <h4>FOULS</h4>
+            <p>0</p>
+            <p>score</p>
+          </div>
+        </div>
+      </div>
+      <button class="new-game">New Game</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

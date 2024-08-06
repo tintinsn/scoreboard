@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
+  background: wheat;
+}
+.timer {
+  text-align: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.period {
+  text-align: center;
+}
+
+.home {
+  text-align: end;
+}
+.guest {
+  text-align: end;
+}
+
